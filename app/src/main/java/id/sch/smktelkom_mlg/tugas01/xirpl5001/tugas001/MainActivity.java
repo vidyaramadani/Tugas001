@@ -146,8 +146,8 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     }
 
     private void doTekan() {
-        tvstatus.setText("Fakultas               : " + status.getSelectedItem().toString());
-        tvpilih.setText("Jurusan                : " + jrsn.getSelectedItem().toString());
+        tvstatus.setText("Status: " + status.getSelectedItem().toString());
+        tvpilih.setText("Jurusan: " + jrsn.getSelectedItem().toString());
     }
 
     private void doPilih() {
