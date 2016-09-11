@@ -101,6 +101,13 @@
             android:layout_height="wrap_content"
             android:entries="@array/status" />
 
+        <Spinner
+            android:id="@+id/jurusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout" />
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
@@ -144,13 +151,55 @@
             android:text="Daftar" />
 
         <TextView
-            android:id="@+id/hsl"
+            android:id="@+id/vadat"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center_horizontal"
-            android:padding="16dp"
-            android:text="Hasil" />
+            android:paddingTop="26dp"
+            android:text="VALIDASI DATA"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            tools:text="Hasil Nama" />
+
+        <TextView
+            android:id="@+id/tvkelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil Kelas" />
+
+        <TextView
+            android:id="@+id/tvjk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil Jenis Kelamin" />
+
+        <TextView
+            android:id="@+id/tvstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil Status" />
+
+        <TextView
+            android:id="@+id/tvpilih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil Jurusan" />
+
+        <TextView
+            android:id="@+id/tvlmb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Pilihan Lomba" />
+
+        <TextView
+            android:id="@+id/tvney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 </ScrollView>
