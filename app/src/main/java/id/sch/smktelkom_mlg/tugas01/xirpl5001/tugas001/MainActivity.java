@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     RadioGroup jk;
     Spinner status, jrsn;
     String[][] ajrsn = {
+            {"?"},
             {"24RPL", "24TKL"},
             {"25RPL", "25TKJ"},
             {"24RPL", "24TKJ", "25RPL", "25TKJ"}
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         tvstatus = (TextView) findViewById(R.id.tvstatus);
         tvpilih = (TextView) findViewById(R.id.tvpilih);
         tvlmb = (TextView) findViewById(R.id.tvlmb);
+        tvney = (TextView) findViewById(R.id.tvney);
 
         pp.setOnCheckedChangeListener(this);
         pk.setOnCheckedChangeListener(this);

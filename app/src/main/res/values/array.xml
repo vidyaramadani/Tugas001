@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="status">
+        <item>--</item>
         <item>Anggota PMR 24</item>
         <item>Anggota PMR 25</item>
         <item>Bukan PMR</item>
