@@ -1,0 +1,2 @@
+Aplikasi ini digunakan untuk pendaftaran lomba PMR yang diadakan dilingkup sekolah SMK Telkom Malang. Dalam form ini peserta harus menginputkan nama, kelas, jenis kelamin, status dalam sub organisai PMR, dan memilih lomba yang akan diikuti. Lomba yang diikuti boleh lebih dari satu, tapi akan ada seleksi sebelum lomba dilaksanakan. Jika peserta belum menginputkan nama dan kelas, aplikasi akan memberi peringatan jika nama dan kelas belum diisi. Jika yang lain belum diinputkan akan tampil di validasi data.
+
